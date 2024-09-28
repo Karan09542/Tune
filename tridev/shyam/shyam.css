@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.sambhu {
+    background-color: #293F50;
+    padding-bottom: 80px;
+}
+
+.sambhu>div:nth-child(1) {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sambhu>div:nth-child(1)>span {
+    border-top: 4px solid #648880;
+}
+
+.sambhu>div:nth-child(1)>span>a {
+    margin-top: 30px;
+    display: block;
+    color: white;
+    font-size: 3.1em;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 0 20px;
+}
+.sambhu>div:nth-child(1)>span>a:hover {
+    color: #648880;
+}
+
+.sambhu>div:nth-child(1)>div>span {
+    display: block;
+    text-align: right;
+    color: #648880;
+    font-size: larger;
+    margin-bottom: 30px;
+    
+}
+
+.sambhu>div:nth-child(1)>div>div>div {
+    float: left;
+    margin-left: 20px;
+}
+
+.sambhu>div:nth-child(1)>div>div>div>a {
+    color: white;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.sambhu>div:nth-child(1)>div>div>div>a:hover {
+    color: #648880;
+}
+
+.sambhu > div:nth-child(2) {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: #648880;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.sambhu > div:nth-child(2) > div {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.sambhu > div:nth-child(2) > span {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.sambhu > div:nth-child(2) > span:hover {
+    background-color: white;
+    color: #648880;
+}
+
+.shiv {
+    margin: 40px auto 0;
+    width: 90%;
+    color: #d3d2d2;
+    font-size: larger;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+
+}
+
+.shiv > div:nth-child(n) span {
+    line-height: 3em;
+}
+.shiv > div:nth-child(n) > div img {
+    height: 300px;
+    border-radius: 4px;
+}
+.shiv > div:nth-child(n) > div p {
+    margin-top: -5px;
+    
+}
+.shiv > div:nth-child(n) > div span {
+    color: #648880;
+}
+
+.shiv > div:nth-child(1) > div p {
+    width: 255px;
+}
+.shiv > div:nth-child(2) > div p {
+    width: 444.444px;
+}
+.shiv > div:nth-child(3) {
+    margin-left: 30px;
+}
+.shiv > div:nth-child(3) > div p {
+    width: 300px;
+}
+
+.shakti {
+    width: 100%;
+    display: flex;
+    background-color: #293F50;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.shakti > span {
+    color: #648880;
+    margin-left: 40px;
+}
+.shakti > div {
+    display: flex;
+    margin-right: 30px;
+
+}
+.shakti > div > div > a {
+    color: white;
+    margin-left: 40px;
+}
+.shakti > div > div > a:hover {
+    color: #648880;
+}
